@@ -28,6 +28,13 @@
 .input-style > * {
   width: 100%;
 }
+.input-style > input[type="textarea"] {
+    border: 1px solid #6b7280;
+    margin-bottom: .5rem;
+}
+.input-style > input[type="submit"] {
+    cursor: pointer;
+}
 .min-height-screen {
   min-height: calc(100vh - 56px);
 }
