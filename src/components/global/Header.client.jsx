@@ -192,8 +192,8 @@ function DesktopHeader({countryCode, isHome, menu, openCart, title}) {
         <div style={{width: '30px', height: '30px'}}>
           <a href="" target="_blank" rel="noreferrer noopener">
             <img
-              src="https://cdn.shopify.com/s/files/1/0669/1520/5393/files/asoTicTok.png?v=1669293951"
-              alt="Kitunga Fashion Logo"
+              src="https://cdn.shopify.com/s/files/1/0669/1520/5393/files/asoTicTok.png?v=1669331455"
+              alt="As Seen on TicTok"
               style={{width: '100%', height: '100%'}}
             />
           </a>

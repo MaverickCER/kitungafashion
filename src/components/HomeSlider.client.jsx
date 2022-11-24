@@ -30,7 +30,7 @@ export function HomeSlider() {
         <span className='img' />
       </div>
       <div className="image-wrapper" data-index="4">
-        <span className='text'>Our Vibrant Colors Memic those found in the Congo Peafowl</span>
+        <span className='text'>Congolese raffia bags available with drawstring or zipper</span>
         <span className='img' />
       </div>
       <div className="image-wrapper" data-index="5">
