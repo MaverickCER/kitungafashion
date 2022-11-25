@@ -42,7 +42,7 @@ function App({request}) {
             title: 'Kitunga Fashion',
             description:
               "A family owned operation that produces handmade products",
-            titleTemplate: `%s · Hydrogen`,
+            titleTemplate: ``,
           }}
         />
         <CartProvider
