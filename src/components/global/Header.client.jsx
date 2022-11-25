@@ -79,7 +79,7 @@ function MobileHeader({countryCode, title, isHome, openCart, openMenu}) {
         }}
       />
       <Link
-        className="lg:hidden items-center self-stretch leading-[3rem] md:leading-[4rem] justify-center flex-grow w-full h-full"
+        className="lg:hidden items-center self-stretch leading-[3rem] md:leading-[4rem] justify-center w-full h-full"
         to="/"
       >
         <div style={{width: '140px', height: 'auto', margin: 'auto'}}>
