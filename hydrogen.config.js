@@ -16,7 +16,7 @@ export default defineConfig({
       Oxygen?.env?.PRIVATE_STOREFRONT_API_TOKEN,
     storefrontApiVersion: '2022-10',
     // @ts-ignore
-    storefrontId: process?.env?.PUBLIC_STOREFRONT_ID,
+    storefrontId: Oxygen?.env?.PUBLIC_STOREFRONT_ID,
   },
   session: CookieSessionStorage('__session', {
     path: '/',
