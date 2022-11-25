@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
 
 .form-wrapper {
   width: 100%;
@@ -16,7 +16,7 @@
   height: 100%;
 }
 .form {
-    min-height: 50vh;
+  min-height: 50vh;
 }
 .form,
 .input-style {
@@ -28,12 +28,12 @@
 .input-style > * {
   width: 100%;
 }
-.input-style > input[type="textarea"] {
-    border: 1px solid #6b7280;
-    margin-bottom: .5rem;
+.input-style > input[type='textarea'] {
+  border: 1px solid #6b7280;
+  margin-bottom: 0.5rem;
 }
-.input-style > input[type="submit"] {
-    cursor: pointer;
+.input-style > input[type='submit'] {
+  cursor: pointer;
 }
 .min-height-screen {
   min-height: calc(100vh - 56px);
@@ -237,8 +237,7 @@
   position: relative;
 }
 .slick-slider .image-wrapper .text {
-  font-family: sans-serif;
-  font-weight: 500;
+  font-family: 'RocknRoll One', sans-serif;
   text-transform: uppercase;
   display: flex;
   min-width: min-content;
@@ -251,7 +250,7 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  background-color: rgba(200, 200, 200, .83);
+  background-color: rgba(220, 243, 231, 0.8);
   padding: 0 2vw;
 }
 .slick-slider .image-wrapper .img {
@@ -281,7 +280,7 @@
     align-items: center;
     text-align: right;
     position: relative;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #dcf3e7;
   }
   .slick-slider .image-wrapper .img {
     background-position: center;

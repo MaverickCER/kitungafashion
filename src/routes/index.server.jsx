@@ -56,7 +56,7 @@ function HomepageContent() {
             width: 'fit-content',
             margin: '8px auto !important',
             padding: '8px 32px',
-            backgroundColor: 'blue',
+            backgroundColor: '#02A54F',
             color: 'white',
             borderRadius: '8px',
           }}
@@ -64,7 +64,7 @@ function HomepageContent() {
           Shop Now →
         </Link>
       </div>
-      <p style={{textAlign: 'center'}}>↓ Visit Our Social Accounts ↓</p>
+      {/* <p style={{textAlign: 'center'}}>↓ Visit Our Social Accounts ↓</p>
       <div className="social-icons">
         <a href="abc" target="_blank" rel="noreferrer noopener">
           <img
@@ -96,7 +96,7 @@ function HomepageContent() {
             alt="link to social media profile for Kitunga Fashion at YouTube"
           />
         </a>
-      </div>
+      </div> */}
     </>
   );
 }
