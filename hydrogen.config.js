@@ -7,15 +7,13 @@ export default defineConfig({
     showQueryTiming: true,
     storeDomain:
       // @ts-ignore kitunga-fashion.myshopify.com
-      process?.env?.PUBLIC_STORE_DOMAIN || 'kitunga-fashion.myshopify.com',
+      Oxygen?.env?.PUBLIC_STORE_DOMAIN,
     storefrontToken:
       // @ts-ignore Storefront API access token
-      process?.env?.PUBLIC_STOREFRONT_API_TOKEN ||
-      'ca98d85ce20cc11c0e28cafc6e70b68b',
+      Oxygen?.env?.PUBLIC_STOREFRONT_API_TOKEN,
     privateStorefrontToken:
       // @ts-ignore Admin API access token
-      process?.env?.PRIVATE_STOREFRONT_API_TOKEN ||
-      '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',
+      Oxygen?.env?.PRIVATE_STOREFRONT_API_TOKEN,
     storefrontApiVersion: '2022-10',
     // @ts-ignore
     storefrontId: process?.env?.PUBLIC_STOREFRONT_ID,
