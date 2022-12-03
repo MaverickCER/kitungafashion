@@ -1,19 +1,16 @@
 .slick-slider .image-wrapper[data-index='1'] .img {
-  background-image: url('https://cdn.shopify.com/s/files/1/0669/1520/5393/files/Candid-1.png?v=1669293465');
+  background-image: url('https://cdn.shopify.com/s/files/1/0669/1520/5393/files/stripes.png?v=1670107581');
 }
 .slick-slider .image-wrapper[data-index='2'] .img {
   background-image: url('https://cdn.shopify.com/s/files/1/0669/1520/5393/files/Candid-2.png?v=1669293465');
 }
 .slick-slider .image-wrapper[data-index='3'] .img {
-  background-image: url('https://cdn.shopify.com/s/files/1/0669/1520/5393/files/Candid-3.png?v=1669293465');
+  background-image: url('https://cdn.shopify.com/s/files/1/0669/1520/5393/files/zipper-drawstring.png?v=1670107581');
 }
 .slick-slider .image-wrapper[data-index='4'] .img {
-  background-image: url('https://cdn.shopify.com/s/files/1/0669/1520/5393/files/Candid-4.png?v=1669293465');
-}
-.slick-slider .image-wrapper[data-index='5'] .img {
   background-image: url('https://cdn.shopify.com/s/files/1/0669/1520/5393/files/Candid-5.png?v=1669293465');
 }
-.slick-slider .image-wrapper[data-index='6'] .img {
+.slick-slider .image-wrapper[data-index='5'] .img {
   background-image: url('https://cdn.shopify.com/s/files/1/0669/1520/5393/files/Candid-6.png?v=1669293682');
 }
 .form-ornament {

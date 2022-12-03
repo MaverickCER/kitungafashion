@@ -20,9 +20,7 @@ export function HomeSlider() {
       <Slider {...settings}>
         <div className="image-wrapper" data-index="1">
           <span className="text">
-            Handmade
-            <br />
-            in the USA
+            Family Owned and Operated Small Business
           </span>
           <span className="img" />
         </div>
@@ -37,22 +35,18 @@ export function HomeSlider() {
           <span className="img" />
         </div>
         <div className="image-wrapper" data-index="3">
-          <span className="text">Family Owned and Operated Small Business</span>
-          <span className="img" />
-        </div>
-        <div className="image-wrapper" data-index="4">
           <span className="text">
             Congolese raffia bags available with drawstring or zipper
           </span>
           <span className="img" />
         </div>
-        <div className="image-wrapper" data-index="5">
+        <div className="image-wrapper" data-index="4">
           <span className="text">
             Authentic High Quality Materials Imported from Africa
           </span>
           <span className="img" />
         </div>
-        <div className="image-wrapper" data-index="6">
+        <div className="image-wrapper" data-index="5">
           <span className="text">
             Follow Us
             <br />
