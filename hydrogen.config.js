@@ -5,8 +5,8 @@ export default defineConfig({
     defaultCountry: 'US',
     defaultLanguage: 'EN',
     defaultLocale: 'en-US',
-    storeDomain: import.meta.env.PUBLIC_STORE_DOMAIN,
-    storefrontToken: import.meta.env.PUBLIC_STOREFRONT_API_TOKEN,
+    storeDomain: process.env.PUBLIC_STORE_DOMAIN,
+    storefrontToken: process.env.PUBLIC_STOREFRONT_API_TOKEN,
     storefrontApiVersion: '2022-10',
   },
   session: CookieSessionStorage('__session', {
