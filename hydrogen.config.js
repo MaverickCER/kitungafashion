@@ -7,6 +7,7 @@ export default defineConfig({
     defaultLocale: 'en-US',
     storeDomain: Oxygen.env.PUBLIC_STORE_DOMAIN,
     storefrontToken: Oxygen.env.PUBLIC_STOREFRONT_API_TOKEN,
+    privateStorefrontToken: Oxygen.env.PRIVATE_STOREFRONT_API_TOKEN,
     storefrontApiVersion: '2022-10',
   },
   session: CookieSessionStorage('__session', {
