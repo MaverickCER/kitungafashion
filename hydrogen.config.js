@@ -1,22 +1,13 @@
-import {CookieSessionStorage, defineConfig} from '@shopify/hydrogen/config';
+import {defineConfig, CookieSessionStorage} from '@shopify/hydrogen/config';
 
 export default defineConfig({
   shopify: {
-    defaultCountryCode: 'US',
-    defaultLanguageCode: 'EN',
-    showQueryTiming: true,
-    storeDomain:
-      // @ts-ignore kitunga-fashion.myshopify.com
-      Oxygen?.env?.PUBLIC_STORE_DOMAIN,
-    storefrontToken:
-      // @ts-ignore Storefront API access token
-      Oxygen?.env?.PUBLIC_STOREFRONT_API_TOKEN,
-    privateStorefrontToken:
-      // @ts-ignore Admin API access token
-      Oxygen?.env?.PRIVATE_STOREFRONT_API_TOKEN,
+    defaultCountry: 'US',
+    defaultLanguage: 'EN',
+    defaultLocale: 'en-US',
+    storeDomain: import.meta.env.PUBLIC_STORE_DOMAIN,
+    storefrontToken: import.meta.env.PUBLIC_STOREFRONT_API_TOKEN,
     storefrontApiVersion: '2022-10',
-    // @ts-ignore
-    storefrontId: Oxygen?.env?.PUBLIC_STOREFRONT_ID,
   },
   session: CookieSessionStorage('__session', {
     path: '/',
