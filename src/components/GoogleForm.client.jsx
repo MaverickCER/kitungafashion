@@ -8,7 +8,7 @@ const GoogleForm = () => {
   const [success, setSuccess] = useState(false);
 
   useEffect(() => {
-    const submitted = localStorage.getItem('kfSubmitted');
+    const submitted = sessionStorage.getItem('kfSubmitted');
     setSuccess(submitted === 'true');
   }, []);
 
@@ -22,7 +22,7 @@ const GoogleForm = () => {
       body: new FormData(formRef.current),
     })
       .then((res) => {
-        localStorage.setItem('kfSubmitted', 'true');
+        sessionStorage.setItem('kfSubmitted', 'true');
         setSuccess(true);
         setLoading(false);
       })

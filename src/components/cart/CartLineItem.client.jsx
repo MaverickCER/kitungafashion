@@ -1,33 +1,35 @@
 import {
-  useCart,
-  useCartLine,
-  CartLineQuantityAdjustButton,
   CartLinePrice,
   CartLineQuantity,
+  CartLineQuantityAdjustButton,
   Image,
   Link,
+  useCart,
+  useCartLine,
 } from '@shopify/hydrogen';
-
 import {Heading, IconRemove, Text} from '~/components';
 
 export function CartLineItem() {
   const {linesRemove} = useCart();
   const {id: lineId, quantity, merchandise} = useCartLine();
+  console.log(merchandise);
 
   return (
     <li key={lineId} className="flex gap-4">
       <div className="flex-shrink">
-        <Image
-          width={112}
-          height={112}
-          widths={[112]}
-          data={merchandise.image}
-          loaderOptions={{
-            scale: 2,
-            crop: 'center',
-          }}
-          className="object-cover object-center w-24 h-24 border rounded md:w-28 md:h-28"
-        />
+        {merchandise.image && (
+          <Image
+            width={112}
+            height={112}
+            widths={[112]}
+            data={merchandise.image}
+            loaderOptions={{
+              scale: 2,
+              crop: 'center',
+            }}
+            className="object-cover object-center w-24 h-24 border rounded md:w-28 md:h-28"
+          />
+        )}
       </div>
 
       <div className="flex justify-between flex-grow">
