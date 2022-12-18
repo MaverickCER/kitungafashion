@@ -8,9 +8,9 @@
     "node": ">=16.14.0"
   },
   "scripts": {
-    "dev": "shopify hydrogen dev",
+    "dev": "shopify hydrogen dev && node public/index.js",
     "build": "shopify hydrogen build",
-    "preview": "shopify hydrogen preview",
+    "preview": "shopify hydrogen preview && node public/index.js",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
     "lint-ts": "tsc --noEmit",
     "test": "WATCH=true vitest",
