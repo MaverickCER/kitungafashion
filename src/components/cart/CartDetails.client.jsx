@@ -1,14 +1,14 @@
-import {useRef} from 'react';
-import {useScroll} from 'react-use';
+import {Button, CartEmpty, CartLineItem, Text} from '~/components';
 import {
-  Link,
-  useCart,
   CartLineProvider,
   CartShopPayButton,
+  Link,
   Money,
+  useCart,
 } from '@shopify/hydrogen';
 
-import {Button, Text, CartLineItem, CartEmpty} from '~/components';
+import {useRef} from 'react';
+import {useScroll} from 'react-use';
 
 export function CartDetails({layout, onClose}) {
   const {lines} = useCart();
@@ -68,7 +68,7 @@ function CartCheckoutActions() {
     <>
       <div className="grid gap-4">
         {checkoutUrl ? (
-          <Link to={checkoutUrl} prefetch={false} target="_self">
+          <Link to={checkoutUrl.replace('www', 'checkout')} prefetch={false} target="_self">
             <Button as="span" width="full">
               Continue to Checkout
             </Button>
