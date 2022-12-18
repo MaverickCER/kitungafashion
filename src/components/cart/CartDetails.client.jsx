@@ -68,7 +68,7 @@ function CartCheckoutActions() {
     <>
       <div className="grid gap-4">
         {checkoutUrl ? (
-          <Link to={checkoutUrl.replace('www', 'checkout')} prefetch={false} target="_self">
+          <Link to={checkoutUrl.replace('https://', 'https://checkout')} prefetch={false} target="_self">
             <Button as="span" width="full">
               Continue to Checkout
             </Button>
