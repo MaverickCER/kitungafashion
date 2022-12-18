@@ -1,8 +1,8 @@
 import {Button, CartEmpty, CartLineItem, Text} from '~/components';
 import {
+  CartCheckoutButton,
   CartLineProvider,
   CartShopPayButton,
-  Link,
   Money,
   useCart,
 } from '@shopify/hydrogen';
@@ -67,13 +67,7 @@ function CartCheckoutActions() {
   return (
     <>
       <div className="grid gap-4">
-        {checkoutUrl ? (
-          <Link to={checkoutUrl.replace('https://', 'https://checkout')} prefetch={false} target="_self">
-            <Button as="span" width="full">
-              Continue to Checkout
-            </Button>
-          </Link>
-        ) : null}
+        <CartCheckoutButton>Continue to Checkout</CartCheckoutButton>
         <CartShopPayButton />
       </div>
     </>
